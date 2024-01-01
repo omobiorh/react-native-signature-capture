@@ -1,32 +1,43 @@
 {
   "_args": [
     [
-      "react-native-signature-capture@0.4.9",
-      "C:\\Projects\\Dialog_O2A\\o2a-mobile_dev"
+      "git://github.com/kr4ckhe4d/react-native-signature-capture.git",
+      "/Users/Manojkanth/Desktop/Projects/dialog-ssa/mobile"
     ]
   ],
-  "_from": "react-native-signature-capture@0.4.9",
-  "_id": "react-native-signature-capture@0.4.9",
+  "_from": "git://github.com/kr4ckhe4d/react-native-signature-capture.git",
+  "_id": "react-native-signature-capture@git://github.com/kr4ckhe4d/react-native-signature-capture.git#c0e533f1f2124be24b4ece74a5b71614e4cb332f",
   "_inBundle": false,
-  "_integrity": "sha1-xYHO3vbOpCvupA0PfSEBcxlrnUo=",
+  "_inCache": true,
+  "_integrity": "",
   "_location": "/react-native-signature-capture",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-signature-capture-0.4.9.tgz_1508150617424_0.7647406689357013"
+  },
+  "_npmUser": {
+    "name": "jedt",
+    "email": "jed.tiotuico@icloud.com"
+  },
+  "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "react-native-signature-capture@0.4.9",
-    "name": "react-native-signature-capture",
-    "escapedName": "react-native-signature-capture",
-    "rawSpec": "0.4.9",
-    "saveSpec": null,
-    "fetchSpec": "0.4.9"
+    "type": "git",
+    "raw": "git://github.com/kr4ckhe4d/react-native-signature-capture.git",
+    "rawSpec": "git://github.com/kr4ckhe4d/react-native-signature-capture.git",
+    "saveSpec": "git://github.com/kr4ckhe4d/react-native-signature-capture.git",
+    "fetchSpec": "git://github.com/kr4ckhe4d/react-native-signature-capture.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "git://github.com/kr4ckhe4d/react-native-signature-capture.git#c0e533f1f2124be24b4ece74a5b71614e4cb332f",
-  "_spec": "0.4.9",
-  "_where": "C:\\Projects\\Dialog_O2A\\o2a-mobile_dev",
+  "_shasum": "c581cedef6cea42beea40d0f7d210173196b9d4a",
+  "_shrinkwrap": null,
+  "_spec": "git://github.com/kr4ckhe4d/react-native-signature-capture.git",
+  "_where": "/Users/Manojkanth/Desktop/Projects/dialog-ssa/mobile",
   "author": {
     "name": "RepairShopr"
   },
@@ -37,6 +48,14 @@
     "prop-types": "^15.5.10"
   },
   "description": "Lets users sign their signatures",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-N1O6f+IZPeNRePA00HvR3IERGHof5s1Y878SZZV69yEUZfT6rM9NoO9DAHbNiqZWIawHew1sCcY0R7dAN6BrjA==",
+    "shasum": "c581cedef6cea42beea40d0f7d210173196b9d4a",
+    "tarball": "https://registry.npmjs.org/react-native-signature-capture/-/react-native-signature-capture-0.4.9.tgz"
+  },
+  "gitHead": "811a4e11dcb72267085a2dcd78e3ce316ccacd6a",
   "homepage": "https://github.com/RepairShopr/react-native-signature-capture#readme",
   "keywords": [
     "react-component",
@@ -46,7 +65,14 @@
   ],
   "license": "ISC",
   "main": "SignatureCapture.js",
+  "maintainers": [
+    {
+      "name": "jedt",
+      "email": "jed.tiotuico@icloud.com"
+    }
+  ],
   "name": "react-native-signature-capture",
+  "optionalDependencies": {},
   "peerDependencies": {
     "react-native": ">=0.47"
   },
