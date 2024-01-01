@@ -109,8 +109,6 @@ static PPSSignaturePoint ViewPointToGL(CGPoint viewPoint, CGRect bounds, GLKVect
 	CGPoint previousMidPoint;
 	PPSSignaturePoint previousVertex;
 	PPSSignaturePoint currentVelocity;
-	UIColor* backgroundColor;
-	UIColor* strokeColor;
 }
 
 @end
@@ -127,7 +125,6 @@ static PPSSignaturePoint ViewPointToGL(CGPoint viewPoint, CGRect bounds, GLKVect
 		time(NULL);
 		
 		self.backgroundColor = [UIColor whiteColor];
-		self.strokeColor = [UIColor blackColor];
 		self.opaque = NO;
 		
 		self.context = context;

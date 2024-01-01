@@ -1,4 +1,4 @@
-package com.signaturecaptureexample;
+package com.signaturecapture.example;
 
 import com.facebook.react.ReactActivity;
 
